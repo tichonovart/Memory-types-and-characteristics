@@ -1,0 +1,213 @@
+body{
+ background-repeat:repeat;		/* Фоновое изображение повторяется по горизонтали и вертикали */
+ margin:0;		/* Отступы вокруг */
+ padding:0;		/* Поля внутри блока */
+ background-image:url(../images/body.png);		/* Задаём фоновое изображение для тега content и указываем где лежит фото */
+}
+
+#wrapper{
+ margin: 0 auto;		/* Отступы вокруг */
+ max-width:1300px;		/* Устанавливаем максимальную ширину элемента */
+ min-width:900px;		/* Устанавливаем минимальную ширину элемента */
+}
+
+#header p{
+ height:85px;		/* Устанавливаем высоту блока */
+ min-width:900px;		/* Устанавливаем минимальную ширину элемента */
+ padding:22px 30px 0 30px;		/* Задаём поля вокруг элемента. Сверху 22px, справа 30px, слева 30px, снизу 0 */
+ margin:0 auto;		/* Задаём отступы для тега content: по горизонтали 0, по вертикали auto */
+ font:35px Comic Sans MS;		/* Устанавливаем размер и тип шрифта для тега header p */
+ background-image:url(../images/zag.jpg);		/* Задаём фоновое изображение для тега content и указываем где лежит фото */
+ background-size:cover;		/* Масштабируем изображение на весь блок menu */
+ color:#111111;		/* Задаём цвет шрифта */
+}
+
+#menu{
+ background-color:#DFE0E0;		/* Задаём фоновый цвет для тега menu */
+ background-size: cover;		/* Масштабируем изображение на весь блок menu */
+ margin:0 auto;		/* Задаём отступы для тега content: по горизонтали 0, по вертикали auto */
+ min-width:900px;		/* Устанавливаем минимальную ширину элемента */
+}
+
+#footer{
+height:55px;		/* Устанавливаем высоту блока */
+min-width:900px;		/* Устанавливаем минимальную ширину элемента */
+background-color:#111111;		/* Задаём фоновый цвет для тега footer */
+color:#FFFFFF;		/* Задаём цвет  шрифта для тега footer */
+padding:10px 0 0 50px;		/* Задаём поля вокруг элемента. Сверху 10px, справа 0, слева 0, снизу 50px */
+}
+
+#footer p{
+font:14px Verdana sans-serif;		/* Устанавливаем размер и тип шрифта для тега footer p */
+}
+
+.clear{
+clear:both;		/* Отменяет обтекание элемента одновременно с правого и левого края */
+}
+
+#form{
+width:750px;		/* Устанавливаем ширину блока */
+text-align:center;		/* Выравнивание текста в блоке по центру */
+margin:0 auto 35px auto;		/* Отступы вокруг */
+}
+
+.button{
+padding:10px 0 45px 0;		/* Поля внутри блока */
+}
+
+.zag{
+font:14px Verdana;		/* Устанавливаем размер и тип шрифта */
+font-weight:bold;		/* Устанавливает насыщенность шрифта, bold — полужирное начертание */
+}
+
+fieldset{		
+border:1px solid #FFFFFF;		/* Параметры рамки */
+margin:0 100px 0 80px;		/* Отступы вокруг */
+background-color:#FFFF82;		/* Цвет фона */
+padding:10px 0 10px 0;		/* Поля внутри блока */
+}
+
+fieldset.fs{
+border:1px solid #FFFFFF;		/* Параметры рамки */
+margin:10px 100px 0 80px;		/* Отступы вокруг */
+background-color:#FFFF82;		/* Цвет фона */
+padding:10px 0 10px 0;		/* Поля внутри блока */
+}
+
+.tp{
+margin-left:10px;		/* Отступ с лева */
+text-align:center;		/* Выравнивание текста в блоке по центру */
+}
+
+textarea{		
+border:1px solid #000000;		/* Параметры рамки */
+background-color:#FFFFFF;		/* Цвет фона */
+width:480px;		/* Устанавливаем ширину блока */
+margin:2px 10px;		/* Отступы вокруг */
+font:12px Verdana;		/* Устанавливаем размер и тип шрифта */
+}
+
+textarea:focus{
+border:2px solid #000000;		/* Параметры рамки */
+background-color:#FFFFFF;		/* Цвет фона */
+}
+
+.input{
+border:1px solid #000000;		/* Параметры рамки */
+height:27px;		/* Устанавливаем высоту блока */
+background-repeat:repeat-x;		/* Изображение повторяется по горизонтали */
+width:300px;		/* Устанавливаем ширину блока */
+font:12px Verdana;		/* Устанавливаем размер и тип шрифта */
+line-height:27px;		/* Устанавливает межстрочный интервал текста, отсчет ведется от базовой линии шрифта */
+padding:0 7px;		/* Задаём размер поля */
+background-color:#FFFFFF;		/* Цвет фона */
+}
+
+.input:focus{		
+border:2px solid #000000;		/* Параметры рамки */
+background-color:#FFFFFF;		/* Цвет фона */
+}
+
+label{
+cursor:pointer;		/* Устанавливает форму курсора, когда он находится в пределах элемента */
+}
+
+.file{
+margin:0 0 20px 42px;		/* Отступы вокруг тега file */
+text-align:left;		/* Выравнивает текст в блоке по левому краю */
+}
+
+.file1{
+margin:0 0 15px 42px;		/* Отступы вокруг тега file1 */
+text-align:left;		/* Выравнивает текст в блоке по левому краю */
+}
+
+#nm{
+ width:85%;		/* Устанавливаем ширину блока в % */
+ margin:30px auto 35px auto;		/* Отступы вокруг тега nm */
+ background-image:url(../images/pattern.png);		/* Задаём фоновое изображение для тега content и указываем где лежит фото */
+ padding:0 35px 0 35px;		/* Задаём размер поля */
+}
+
+h1{
+ text-align:center;		/* Текст в теге h1 будет выравнен по центру */
+ padding:20px 0 0 0;		/* Задаём поля вокруг элемента. Сверху 20px, справа 0, слева 0, снизу 0 */
+}
+
+.dws-menu *{
+ margin: 0;		/* Отступы со всех сторон 0 */
+ padding: 0;		/* Задаём размер поля 0 */
+}
+.dws-menu ul,
+.dws-menu ol{
+ list-style: none;		/* Отменяет маркеры для списка */
+}
+.dws-menu > ul{
+ display: flex;		/* Вертикальное выравнивание */
+ justify-content: center;		/* Выравнивает элементы по центру */
+}
+.dws-menu > ul li{
+ position: relative;		/* Смещение по вертикали */
+ border-right: 1px solid #c7c8ca;		/* Задаём рамку справа */
+}
+.dws-menu > ul li:first-child{
+ border-left: 1px solid #b2b3b5;		/* Задаём рамку слева */
+}
+.dws-menu > ul li:last-child{
+ border-right: 1px solid #babbbd;		/*Задаём рамку справа */
+}
+.dws-menu > ul li > a i.fa{
+ position: absolute;		/* Позиция элемента */
+ top: 15px;		/* Конечное местоположение позиционированного элемента сверху */
+ left: 12px;		/* Конечное местоположение позиционированного элемента по левому краю */
+ font-size: 18px;		/* Размер шрифта */
+}
+.dws-menu > ul li a{
+ display: block;		/* Элементы блока располагаются один над другим вертикально */
+ background: rgb(201,201,201);		/* Старые браузеры */
+ background: -moz-linear-gradient(top,  rgba(201,201,201,1) 0%, rgba(246,246,246,1) 2%, rgba(196,197,199,1) 98%, rgba(117,117,119,1) 100%); /* FF3.6-15 */
+ background: -webkit-linear-gradient(top,  rgba(201,201,201,1) 0%,rgba(246,246,246,1) 2%,rgba(196,197,199,1) 98%,rgba(117,117,119,1) 100%); /* Chrome10-25,Safari5.1-6 */
+ background: linear-gradient(to bottom,  rgba(201,201,201,1) 0%,rgba(246,246,246,1) 2%,rgba(196,197,199,1) 98%,rgba(117,117,119,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9c9c9', endColorstr='#757577',GradientType=0 ); /* IE6-9 */
+
+ padding: 15px 41px 15px 50px;		/* Поля внутри блока */
+ font-size: 14px;		/* Размер шрифта*/
+ color: #454547;		/* Цвет шрифта */
+ text-decoration: none;		/* Отменяет все эффекты, в том числе и подчёркивание у ссылок, которое задано по умолчанию */
+ text-transform:uppercase;		/* Все символы текста становятся прописными */
+ transition: all 0.3s ease;		/* Переходное состояние между двумя состояниями элемента */
+}
+.dws-menu li a:hover{
+ background: rgb(201,201,201);		/* Старые браузеры */
+ background: -moz-linear-gradient(top,  rgba(201,201,201,1) 0%, rgba(246,246,246,1) 2%, rgba(196,197,199,1) 98%, rgba(117,117,119,1) 100%); /* FF3.6-15 */
+ background: -webkit-linear-gradient(top,  rgba(201,201,201,1) 0%,rgba(246,246,246,1) 2%,rgba(196,197,199,1) 98%,rgba(117,117,119,1) 100%); /* Chrome10-25,Safari5.1-6 */
+ background: linear-gradient(to bottom,  rgba(201,201,201,1) 0%,rgba(246,246,246,1) 2%,rgba(196,197,199,1) 98%,rgba(117,117,119,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9c9c9', endColorstr='#757577',GradientType=0 ); /* IE6-9 */
+
+
+ color: #8E8E8E;		/* Цвет шрифта */
+ box-shadow: 1px 5px 10px -5px black;		/* Добавляет тень к элементу */
+ transition: all 0.3s ease;		/* Переходное состояние между двумя состояниями элемента */
+}
+
+.dws-menu li ul{
+ position: absolute;		/* Абсолютное положение элемента */
+ min-width: 150px;		/* Устанавливаем минимальную ширину элемента */
+ display: none;		/* Элементы становятся невидимы */
+}
+.dws-menu li > ul li{
+ border: 1px solid #c7c8ca;		/* Параметры рамки */
+}
+.dws-menu li > ul li a{
+ padding: 10px;		/* Поля внутри блока */
+ text-transform: none;		/* Не меняет регистр символов */
+ background: #e4e4e5;		/* Цвет фона */
+}
+.dws-menu li > ul li ul{
+ position: absolute;		/* Абсолютное положение элемента */
+ right: -150px;		/* Конечное местоположение позиционированного элемента по правому краю */
+ top: 0;		/* Конечное местоположение позиционированного элемента сверху */
+}
+.dws-menu li:hover > ul{
+ display: block;		/*Элементы блока располагаются один над другим вертикально */
+}
